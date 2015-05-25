@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D7442B68-8760-445B-9414-A671E06499A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VNN</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8C949E58E7585B2E28D8481B726FD10C6C4484E5</key>
+		<string>https://github.com/dutran90/vietnamnet.vn.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VNN.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8C949E58E7585B2E28D8481B726FD10C6C4484E5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dutran90/vietnamnet.vn.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8C949E58E7585B2E28D8481B726FD10C6C4484E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8C949E58E7585B2E28D8481B726FD10C6C4484E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VNN</string>
+		</dict>
+	</array>
+</dict>
+</plist>

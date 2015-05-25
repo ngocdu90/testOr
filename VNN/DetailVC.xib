@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailVC">
+            <connections>
+                <outlet property="navBar" destination="sos-hx-yt5" id="rPn-pe-bMI"/>
+                <outlet property="navItem" destination="qCU-Rq-p1C" id="A4A-3d-iWE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="SDC-jd-fRv" id="9e9-J6-m0p"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SDC-jd-fRv">
+                    <rect key="frame" x="0.0" y="69" width="320" height="524"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sos-hx-yt5">
+                    <rect key="frame" x="0.0" y="26" width="320" height="44"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <items>
+                        <navigationItem id="qCU-Rq-p1C">
+                            <barButtonItem key="leftBarButtonItem" systemItem="reply" id="kI8-Ss-1xR">
+                                <connections>
+                                    <action selector="Back" destination="-1" id="lq8-a7-wBf"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="sos-hx-yt5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="26" id="5NK-ZU-eBT"/>
+                <constraint firstAttribute="bottom" secondItem="SDC-jd-fRv" secondAttribute="bottom" constant="-25" id="84j-0A-J1X"/>
+                <constraint firstItem="sos-hx-yt5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9Qb-gb-bHe"/>
+                <constraint firstItem="SDC-jd-fRv" firstAttribute="top" secondItem="sos-hx-yt5" secondAttribute="bottom" id="PuV-PM-bdZ"/>
+                <constraint firstAttribute="trailing" secondItem="SDC-jd-fRv" secondAttribute="trailing" id="TEc-6p-fP3"/>
+                <constraint firstAttribute="trailing" secondItem="sos-hx-yt5" secondAttribute="trailing" id="XBk-fL-iff"/>
+                <constraint firstItem="SDC-jd-fRv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lbr-j4-udw"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
