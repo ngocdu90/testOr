@@ -25,6 +25,7 @@
     
     NSLog(@"%@",self.strLink);
 
+    NSLog(@"ngoc du");
     
     NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:self.strLink]];
     

@@ -12,22 +12,34 @@
 	<dict>
 		<key>8C949E58E7585B2E28D8481B726FD10C6C4484E5</key>
 		<string>https://github.com/dutran90/vietnamnet.vn.git</string>
+		<key>F8E0BE69E071295D4CC90F9C988B2BD45B05EFDE</key>
+		<string>https://github.com/ngocdu90/testOr.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>VNN.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8C949E58E7585B2E28D8481B726FD10C6C4484E5</key>
+		<string>../../../VNN</string>
+		<key>F8E0BE69E071295D4CC90F9C988B2BD45B05EFDE</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/dutran90/vietnamnet.vn.git</string>
+	<string>https://github.com/ngocdu90/testOr.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8C949E58E7585B2E28D8481B726FD10C6C4484E5</string>
+	<string>F8E0BE69E071295D4CC90F9C988B2BD45B05EFDE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8E0BE69E071295D4CC90F9C988B2BD45B05EFDE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>testOr</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
